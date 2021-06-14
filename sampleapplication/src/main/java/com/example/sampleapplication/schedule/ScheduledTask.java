@@ -24,8 +24,8 @@ class ScheduledTasks {
     @Autowired
     MailRepository mailRepository;
 
-//    @Scheduled(cron = "0 0 0/1 * * ?")
-    @Scheduled(fixedRate = 100000)
+    @Scheduled(cron = "0 0 0/1 * * ?")
+    //@Scheduled(fixedRate = 100000)
     public void reportCurrentTime() {
         log.info("emails are sent out :: Execution Time - {}", dateFormat.format(LocalDateTime.now()));
         try {
