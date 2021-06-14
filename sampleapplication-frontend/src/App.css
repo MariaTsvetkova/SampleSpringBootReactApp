@@ -1,0 +1,15 @@
+.list {
+  text-align: left;
+  max-width: 650px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 400px;
+  margin: auto;
+}
